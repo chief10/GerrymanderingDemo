@@ -1,5 +1,4 @@
 declare var require: any;
-declare var topojson: any;
 declare type stateShapes = {
   objects: any
 }

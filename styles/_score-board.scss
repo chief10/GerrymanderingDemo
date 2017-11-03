@@ -1,0 +1,48 @@
+#score-board > .score-board {
+  margin-left: 10px;
+
+  h3 {
+    text-align: center;
+  }
+  
+  .score-board-body {
+    display: flex;
+  
+    .team {
+      text-align: center;
+    }
+
+    .team.greens > h4:after {
+      background-color: green
+    }
+
+    .team.purples > h4:after {
+      background-color: purple;
+    }
+
+    .team > h4 {
+      display: flex;
+      align-items: center;
+    }
+ 
+    .team > h4:after {
+      height: 15px;
+      width: 15px;
+      content: "";
+      display: block;
+      margin-left: 5px;
+    }
+
+    .team.greens {
+      margin-right: 10px;
+    }
+  }
+
+
+  .score-board-controls .reset{
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+  }
+
+}
